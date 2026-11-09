@@ -1,0 +1,9 @@
+Key,Value,Description
+time_max,228,Voltage time-histogram upper bin limit; rejection cuts are in config/run_cuts.ini
+noise_channels,288,Distinct channels in an event required for detector-wide noise veto before cuts
+module_channels,58,Minimum distinct channels in one module for a module-noise candidate
+module_synchronous,50,Distinct channels at identical Time needed unless repeated-hit condition is met
+module_hits_per_channel,3,Alternative module condition: total module hits divided by distinct channels
+channels_per_module,72,Electronics grouping for module-noise detection; not physical pad rows
+readout_modules,8,Number of readout modules in the current setup
+excluded_runs,1603,Run excluded from voltage overlays; raw files remain unchanged

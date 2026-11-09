@@ -1,0 +1,4 @@
+# ROOT/PyROOT comes from the ROOT installation; it is not installed here.
+# Python's Tk support is only needed for interactive event navigation.
+numpy
+matplotlib

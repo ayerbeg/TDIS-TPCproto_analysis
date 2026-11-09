@@ -1,0 +1,5 @@
+Name,X,Y,XBinWidth,XBins,XMin,XMax,YBinWidth,YBins,YMin,YMax,LogZ
+Event_vs_Pad,Pad,Event,,,,,64,,,,true
+Hit_vs_Pad,Pad,Hit,,,,,,,,,true
+Charge_vs_Pad,Pad,Charge,,,,,,,,,true
+Charge_vs_Time,Time,Charge,,,,,,,,,true

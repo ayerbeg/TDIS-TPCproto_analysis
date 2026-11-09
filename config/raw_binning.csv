@@ -1,0 +1,8 @@
+Branch,BinWidth,Bins,Min,Max,LogY
+Event,1,,,,false
+Pad,1,410,-0.5,409.5,true
+Channel,1,576,-0.5,575.5,true
+Hit,1,,,,true
+Time,1,,,,false
+Charge,1,,,,true
+Pedestal,1,,,,true

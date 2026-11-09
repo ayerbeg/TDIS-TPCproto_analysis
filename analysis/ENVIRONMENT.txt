@@ -1,0 +1,8 @@
+Environment used to validate this analysis folder:
+Python: 3.14.8
+ROOT/PyROOT: 6.40.04
+NumPy: 2.4.6
+Matplotlib: 3.10.8
+Platform: Linux
+Tests include Python unit checks, ROOT/Python bin comparisons, CLI exports and copied-folder portability.
+No raw ROOT data files are bundled.

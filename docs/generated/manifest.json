@@ -1,0 +1,22 @@
+{
+  "analysis/auxiliary/pad_map.csv": "5d64ac44aff372ff8f579e547f936eaa962d1a64fcaee27e220042a5752c57f6",
+  "analysis/detector.py": "9c6bf4225bda0798ccadb40d72b7a10292c610e9a45f088ee2387b89c9dcf042",
+  "analysis/settings.csv": "775ab3962656198acf5f7e1a403860f06c9a6a180a2f342127aa08c3a23bd3a1",
+  "analysis/tpc.py": "bccb1a2b539420b6887eabf49808f0997fbe2cfc7daaf97ebfa76a9565fa68d7",
+  "analysis/voltage.py": "ee84379e59e4738326ceb5adb37e047ca63fdac72ac755d8d0e45d6ff2a8e09b",
+  "analysis_root/TPC.C": "1d3e233eb1fe1a500b7ef54bf902c65626dff8dbe850a0e25adc37864dc883c8",
+  "analysis_root/TPCDetector.h": "5860dc161291576dcd3fee7c126da1aea712dc756f52b4d8fab43d9542866250",
+  "analysis_root/auxiliary/pad_map.csv": "5d64ac44aff372ff8f579e547f936eaa962d1a64fcaee27e220042a5752c57f6",
+  "analysis_root/settings.csv": "775ab3962656198acf5f7e1a403860f06c9a6a180a2f342127aa08c3a23bd3a1",
+  "config/raw_2d_plots.csv": "76207361ba26fc9ac96f787e8d96555bbfc6504fa261467baf0d099969e59c8a",
+  "config/raw_binning.csv": "4d4c588c49c12256a4200eb08bd330e5868683e988d5b7ed521d4351dda71226",
+  "config/run_cuts.ini": "4a610aa19f7d338feb996028cca1b4b0f50e9672e207034f30fbce9f492b8bb5",
+  "config/voltage_study_cuts.ini": "9c7469da044e8ace0ca81774643d9705687356e065bdc6a423f831427a8ab0e2",
+  "docs/TPC_manual.tex": "714b3de798cd948e7ca392be1eac5e872ec609da65c7dbbb5611e1272b9c9b3b",
+  "docs/build_manual.py": "8a0555f1adc8eecf8ff9a675bb4021201747c4fc20fdde7eaec8a0d4446b631f",
+  "results/root/events/run1616/3d/event_1616_5584_charge.png": "1339e364132d255f6f5e0cef4cc677d07124a318fcfcccd1e626390a71f521ce",
+  "results/root/events/run1616/event_1616_5584_charge.png": "bf37727962f1577650a445f1712687c18cec74cf6c80f88e89715bc61d229b7e",
+  "results/root/raw/run1616/2d/raw2d_overview.png": "777da4f43738799f7aa7cb99868b2e98147edc297f73a883d5d3c08fc3683635",
+  "results/root/raw/run1616/raw_overview.png": "3ef3cafebc90bb9534122c5f509bc64fee2f66cc8b5a6f746e0a9662bf7983d5",
+  "results/root/voltage/time_overlay_counts.png": "c933cc941f072e2d0ccc72235dfee2dd8dddb6bd7981f976c08c7f2685c2870b"
+}

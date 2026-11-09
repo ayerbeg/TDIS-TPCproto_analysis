@@ -1,0 +1,48 @@
+usage: tpc.py raw [-h] [--batch] [--dimensions {both,1d,2d} | --1d | --2d |
+                  --both] [--plots PLOTS [PLOTS ...]]
+                  [--plots-file PLOTS_FILE]
+                  [--branches BRANCHES [BRANCHES ...]] [--bins BINS |
+                  --bin-width BIN_WIDTH] [--range LOW HIGH] [--log-y |
+                  --linear-y] [--binning-file BINNING_FILE] [--apply-cuts]
+                  [--input-dir INPUT_DIR] [--output-dir OUTPUT_DIR]
+                  [--pad-map PAD_MAP] [--cuts-db CUTS_DB]
+                  [--veto-file VETO_FILE]
+                  run_number
+
+positional arguments:
+  run_number
+
+options:
+  -h, --help            show this help message and exit
+  --batch               Save outputs without opening a plot window
+  --dimensions, --dim {both,1d,2d}
+                        Default: both; --branches or --plots alone focuses its
+                        own group
+  --1d                  Show only 1D
+  --2d                  Show only 2D
+  --both                Show both groups (default)
+  --plots PLOTS [PLOTS ...]
+                        Focus on selected 2D plot names
+  --plots-file PLOTS_FILE
+  --branches BRANCHES [BRANCHES ...]
+                        Focus on individual quantities; default: six-panel
+                        mapped summary plus separate Channel diagnostic
+  --bins BINS           Override 1D bin count
+  --bin-width BIN_WIDTH
+                        Override 1D native bin width
+  --range LOW HIGH      1D histogram edges, not a data cut
+  --log-y
+  --linear-y
+  --binning-file BINNING_FILE
+  --apply-cuts          Compare cleaned data using DB plus automatic vetoes
+  --input-dir INPUT_DIR
+                        Directory containing ntupleNNNN.root; defaults to
+                        data/root/
+  --output-dir OUTPUT_DIR
+                        Where to save plots; default under results/python/ for
+                        the chosen workflow
+  --pad-map PAD_MAP
+  --cuts-db CUTS_DB     Shared detector global/run rejection database
+  --veto-file VETO_FILE
+                        Run/event veto CSV; otherwise use live output or
+                        bundled auxiliary snapshot

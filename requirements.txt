@@ -1,0 +1,3 @@
+# PyROOT is supplied by the ROOT installation, separately from these plotting dependencies.
+numpy>=1.24
+matplotlib>=3.7

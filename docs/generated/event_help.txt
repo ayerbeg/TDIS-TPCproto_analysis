@@ -1,0 +1,25 @@
+usage: tpc.py event [-h] [--event EVENT] [--mode {2d,3d}] [--save]
+                    [--input-dir INPUT_DIR] [--output-dir OUTPUT_DIR]
+                    [--pad-map PAD_MAP] [--cuts-db CUTS_DB]
+                    [--veto-file VETO_FILE]
+                    run_number
+
+positional arguments:
+  run_number            Run number, for example 1616
+
+options:
+  -h, --help            show this help message and exit
+  --event EVENT         Event to start with or export
+  --mode {2d,3d}
+  --save                Export without opening windows
+  --input-dir INPUT_DIR
+                        Directory containing ntupleNNNN.root; defaults to
+                        data/root/
+  --output-dir OUTPUT_DIR
+                        Where to save plots; default under results/python/ for
+                        the chosen workflow
+  --pad-map PAD_MAP
+  --cuts-db CUTS_DB     Shared detector global/run rejection database
+  --veto-file VETO_FILE
+                        Run/event veto CSV; otherwise use live output or
+                        bundled auxiliary snapshot

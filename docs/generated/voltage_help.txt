@@ -1,0 +1,34 @@
+usage: tpc.py voltage [-h] [--input-dir INPUT_DIR] [--output-dir OUTPUT_DIR]
+                      [--voltage-file VOLTAGE_FILE] [--pad-map PAD_MAP]
+                      [--cuts-db CUTS_DB] [--study-cuts-db STUDY_CUTS_DB]
+                      [--noise-channels NOISE_CHANNELS]
+                      [--voltage-override RUN=VOLTS]
+                      [--exclude-run EXCLUDE_RUN]
+                      [--module-channels MODULE_CHANNELS]
+                      [--module-synchronous MODULE_SYNCHRONOUS]
+
+options:
+  -h, --help            show this help message and exit
+  --input-dir INPUT_DIR
+  --output-dir OUTPUT_DIR
+  --voltage-file VOLTAGE_FILE
+                        Run/voltage table; default checks input-dir, data/,
+                        then the bundled auxiliary table
+  --pad-map PAD_MAP
+  --cuts-db CUTS_DB
+  --study-cuts-db STUDY_CUTS_DB
+                        Independent voltage-study restrictions, applied in
+                        addition to detector cleaning
+  --noise-channels NOISE_CHANNELS
+                        Reject events with at least this many distinct
+                        channels before any cuts
+  --voltage-override RUN=VOLTS
+  --exclude-run EXCLUDE_RUN
+                        Run excluded from voltage overlays (1603 excluded by
+                        default)
+  --module-channels MODULE_CHANNELS
+                        Minimum distinct channels in a 72-channel module
+                        (about 80%)
+  --module-synchronous MODULE_SYNCHRONOUS
+                        Required synchronous channels, unless module averages
+                        >=3 hits/channel

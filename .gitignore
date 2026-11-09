@@ -1,0 +1,26 @@
+# Local data and generated analyses. One compact complete-event example is tracked.
+/data/root/*
+!/data/root/README.md
+!/data/root/ntuple1616.root
+/data/raw/
+/data/decoded_text/
+/results/
+/bundles/
+__pycache__/
+*.py[cod]
+*.so
+*.pcm
+*.d
+*.o
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+.DS_Store
+.#*
+*~
+.*.swp
+
+# Editor autosave files
+\#*#
